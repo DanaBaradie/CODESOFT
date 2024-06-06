@@ -44,4 +44,8 @@ public class Course {
             
         }
     }
-}....
+    @Override
+    public String toString(){
+        return "Code: " + this.code + ", title: " + this.title + ", description: " + this.description + ", capacity: " + this.capacity + ", Schedule: " + this.schedule + ", enrolled students: " + this.enrolledStudents;
+    }
+}

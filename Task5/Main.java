@@ -14,8 +14,8 @@ public class Main {
         while (true) {
             System.out.println("\nCourse Registration System");
             System.out.println("1. List Courses");
-            System.out.println("2. Register for Course");
-            System.out.println("3. Drop Course");
+            System.out.println("2. Register for a course");
+            System.out.println("3. Drop a course");
             System.out.println("4. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
@@ -35,7 +35,7 @@ public class Main {
                     System.out.print("Enter student ID: ");
                     studentId = scanner.next();
                     System.out.print("Enter course code: ");
-                                        courseCode = scanner.next();
+                    courseCode = scanner.next();
                     system.dropCourseForStudent(studentId, courseCode);
                     break;
                 case 4:
